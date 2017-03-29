@@ -1,1 +1,1 @@
-- readme
+- it will record the process of my study.
