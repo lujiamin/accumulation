@@ -3,3 +3,10 @@
 - StringBuffer 可变类，只能使用 StringBuffer sb=new StringBuffer("xx");进行实例化。使用sb.append("yy");进行修改添加
 - StringBuilder 执行效率最高，但是不是线程安全的。多线程时，只能使用StringBuffer。
 - StringTokenizer 用来分割字符串，使用nextToken()方法实现
+
+## String 
+```
+String a=new String("aa");
+String b=new String("aa");
+```
+- 只要用 new 总会产生新的对象，在内存中的地址不同
