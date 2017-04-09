@@ -25,3 +25,7 @@
 - "==" 用来比较两个变量的值是否相等。但是无法实现两个对象的内容是否相等
 - equals 是 Object 类提供的方法，在没有被覆盖的情况下，equals 等同于 "==",比较的是引用。但是 String 的 equals 方法是用于比较两个独立对象的内容是否相同，即堆中的内容是否相同
 - hashCode() 方法是从 Object 类继承而来，在没有重写的情况下，任何对象的 hashCode()方法都是不相等的。但是 String 对象的 hashCode 只跟内容有关。
+
+
+### interface
+- 接口只能用 public 和 abstract 来修饰，不能用 protected 和 final 修饰
