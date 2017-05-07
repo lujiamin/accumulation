@@ -20,3 +20,18 @@
 ### String
 - ```set mykey value```
 - ```get mykey```
+- ```getrange mykey m n``` 返回 mykey 中 m ~ n 子串
+- ```strlen mykey``` 返回字符串长度
+- ```append mykey value``` 将 value 追加到 mykey 值的尾部
+### Hash
+- ```hmset mykey field1 value1 [field2 value2]``` 将多个 field-value 设置到 hash 表中
+- ```hmget mykey field1 [field2]``` 返回 field 对应的 value
+- ```hset mykey field value``` 将 hash 表中 field 的设置为 value
+- ```hget mykey field``` 返回 filed 对应的 value
+- ```hgetall mykey``` 返回所有 field 和 value
+- ```hkeys mykey``` 返回所有 field
+- ```hvals mykey``` 返回所有 value
+- ```hlen mykey``` 返回字段的数量
+- ```hdel mykey filed1 [field2]``` 删除filed
+- ```hexists mykey field``` 检查 field 是否存在
+### List
