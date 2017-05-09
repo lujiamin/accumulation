@@ -35,3 +35,23 @@
 - ```hdel mykey filed1 [field2]``` 删除filed
 - ```hexists mykey field``` 检查 field 是否存在
 ### List
+- ```lpush mykey value1``` 向 mykey 列表头部插入元素
+- ```llen mykey``` 返回列表长度
+- ```lindex mykey index```` 获取索引为 index 的元素
+### Set
+- ```sadd mykey value1``` 向集合 mykey 中插元素value1
+- ```smembers mykey``` 返回集合中所有元素
+- ```sinter mykey1 mykey2``` 返回集合1和集合2的交集
+- ```sunion mykey1 mykey2``` 返回集合1和集合2的并集
+- ```sdiff mykey1 mykey2``` 返回集合1和集合2的差集
+### Sorted Set
+- ```zadd mykey score1 mem1 [score2 mem2]```向有序集合中添加一个或多个成员
+- ```zcard mykey``` 返回有序集合中成员数
+- ```zscore mykey mem1``` 返回 mem1 成员的分数
+- ```zrank mykey mem1``` 返回有序集合中指定成员的索引
+### 高级教程
+- 数据备份与恢复
+- 安全
+- 客户端连接
+- 管道技术
+- 分区
