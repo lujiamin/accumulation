@@ -37,7 +37,7 @@
 ### List
 - ```lpush mykey value1``` 向 mykey 列表头部插入元素
 - ```llen mykey``` 返回列表长度
-- ```lindex mykey index```` 获取索引为 index 的元素
+- ```lindex mykey index``` 获取索引为 index 的元素
 ### Set
 - ```sadd mykey value1``` 向集合 mykey 中插元素value1
 - ```smembers mykey``` 返回集合中所有元素
